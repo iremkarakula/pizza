@@ -1,7 +1,7 @@
 
 header {
-  width: 1275; 
-  height: 850px;
+   
+  height: 53.125rem;
   background-image: url(.\public\assets\iteration-1\home-banner.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -9,22 +9,22 @@ header {
   
 }
 header h1 {
-  color: white; font-size: 2.5rem; font-family:" Londrina Solid"; text-align: center; padding-top: 35px;
+  color: white; font-size: 2.5rem; font-family:" Londrina Solid"; text-align: center; padding-top: 2.188rem;
 }
 header h2 {
   color: #FDC913; font-size: 1.4rem; font-family: Satisfy; font-style: italic; font-weight: lighter;text-align: center; margin: 0; padding: 0;
 }
 header h3 {
-  width: 650px; color: white; font-size: 4rem; font-family: "Roboto Condensed"; text-align: center; font-weight: 100; margin: 0; padding: 0;
+  width: 40.625rem; color: white; font-size: 4rem; font-family: "Roboto Condensed"; text-align: center; font-weight: 100; margin: 0; padding: 0;
 }
 header button {
-  font-family: Barlow; font-size: 1.1rem; font-weight: 600; text-align: center; background: #FDC913; color: #292929; border-radius: 22px;  padding: 15px 50px; margin: 15px;
+  font-family: Barlow; font-size: 1.1rem; font-weight: 600; text-align: center; background: #FDC913; color: #292929; border-radius: 1.375rem;  padding: 0.938rem 3.125rem; margin: 0.938rem;
 }
 .container1 {
-  display: flex; gap: 40px; justify-content: center; padding: 18px;
+  display: flex; gap: 2.5rem; justify-content: center; padding: 1.125rem;
 }
 .meal-items {
-  display: flex; flex-direction: row; gap: 4px;
+  display: flex; flex-direction: row; gap: 0.313rem;
 }
 
 .card-items {
@@ -32,17 +32,20 @@ header button {
 }
 .card1 {
   background-image: url(.\public\assets\iteration-2\cta\kart-1.png);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-repeat: no-repeat;
   background-size: contain;
-  width:400px ;
-  height: 320px; 
+  width: 25rem ;
+  height: 20rem; 
 }
 .card1 h1 {
-  font-family: Quattrocento; font-size: 50px; font-weight: 700; line-height: 65px; text-align: left; color: white; width: 10px; margin-left: 4%;  margin-top: 2%; margin-bottom: 0%; 
+  font-family: Quattrocento; font-size: 3.125rem; font-weight: 700; line-height: 4.063rem; text-align: left; color: white; width: 0.625rem; margin-left: 4%;  margin-top: 4%; margin-bottom: 0%;  padding-bottom: 0%;
+}
+.card1 h3 {
+  font-family: Quattrocento; font-size: 3.125rem; font-weight: 700; line-height: 2.813rem; text-align: left; color: white; width: 0.625rem; margin-left: 4%;  margin-top: 0%; margin-bottom: 0%; padding-top: 0%;
 }
 .card1 h2 {
-  font-family: Barlow; font-size: 16px; font-weight: 600; line-height: 18px; text-align: left; color: white; margin-left: 4%;  margin-top: 0%; margin-bottom: 1%;
+  font-family: Barlow; font-size: 1rem; font-weight: 600; line-height: 2.188rem; text-align: left; color: white; margin-left: 4%;  margin-top: 1%; margin-bottom: 0%; padding-bottom: 0%;
 }
 
 .card-items2 {
@@ -52,43 +55,43 @@ header button {
   background-image: url(.\public\assets\iteration-2\cta\kart-2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 20px;
-  width:400px ;
-  height: 160px;
+  border-radius: 1.25rem;
+  width: 25rem ;
+  height: 10rem;
   
 }
 .card2 h1 {
-  font-family: Barlow; font-size: 20px; font-weight: 600; line-height: 25px; text-align: left; color: white;  margin-top: 1%; margin-bottom: 1%; margin-left: 15px; padding-top: 5%;
+  font-family: Barlow; font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; text-align: left; color: white;  margin-top: 1%; margin-bottom: 1%; margin-left: 10.938rem; padding-top: 5%;
 }
 .card2 h2 {
-  font-family: Barlow; font-size: 20px; font-weight: 600; line-height: 25px; text-align: left; color: white;  margin-top: 1%; margin-bottom: 1%; margin-left: 15px; 
+  font-family: Barlow; font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; text-align: left; color: white;  margin-top: 1%; margin-bottom: 1%; margin-left: 0.938rem; 
 }
 .card3 {
   background-image: url(.\public\assets\iteration-2\cta\kart-3.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 20px;
-  width:400px ;
-  height: 160px;
+  border-radius: 1.25rem;
+  width: 25rem ;
+  height: 10rem;
   
 }
 
 .card3 h1 {
-  font-family: Barlow; font-size: 20px; font-weight: 600; line-height: 25px; text-align: left; color: #292929;  margin-top: 1%; margin-bottom: 1%; margin-left: 15px; padding-top: 5%;
+  font-family: Barlow; font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; text-align: left; color: #292929;  margin-top: 1%; margin-bottom: 1%; margin-left: 0.938rem; padding-top: 5%;
 }
 .card3 h2 {
-  font-family: Barlow; font-size: 20px; font-weight: 600; line-height: 25px; text-align: left; color: #292929;  margin-top: 1%; margin-bottom: 1%; margin-left: 15px; 
+  font-family: Barlow; font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; text-align: left; color: #292929;  margin-top: 1%; margin-bottom: 1%; margin-left: 0.938rem; 
 }
 
 .card-items button {
-  font-family: Barlow; font-size: 0.7rem; font-weight: 800; text-align: center; background: white; color: #CE2829; border-radius: 22px;  padding: 10px 25px; margin: 15px; 
+  font-family: Barlow; font-size: 0.7rem; font-weight: 800; text-align: center; background: white; color: #CE2829; border-radius: 1.375rem;  padding: 0.625rem 1.563rem; margin: 0.938rem; border: white;
 }
 
 .container3 h1 {
-  color: #CE2829; font-size: 1.6rem; font-family: Satisfy; font-style: italic; font-weight: bold; text-align: center; padding-bottom: 0%; margin-bottom: 0%; padding-top: 15px;
+  color: #CE2829; font-size: 1.6rem; font-family: Satisfy; font-style: italic; font-weight: bold; text-align: center; padding-bottom: 0rem; margin-bottom: 0rem; padding-top: 0.938rem;
 }
 .container3 h2 {
-  font-family: Barlow; font-size: 40px; font-weight: bold; text-align: center; padding-top: 0%; margin-top: 0%;
+  font-family: Barlow; font-size: 2.5rem; font-weight: bold; text-align: center; padding-top: 0rem; margin-top: 0rem;
 }
 
 
@@ -104,7 +107,7 @@ header button {
   font-size: 1.2rem; 
 }
 .container4 p {
-  font-size: 0.8rem; padding: 0%; margin: 0%;
+  font-size: 0.8rem; padding: 0rem; margin: 0rem;
 }
 
 .container4 {
@@ -113,32 +116,64 @@ header button {
 .container4 img {
   width: 16rem;
 }
-footer {
-  background: #292929;
-  display: flex; flex-direction: row; gap: 6rem;justify-content: center;
+
+.meal-items20 {
+  display: flex; flex-direction: row; gap: 0.313rem;  align-items: center;
 }
-.iletisim {
-  display: flex; flex-direction: column; align-items: flex-start; width: 13rem;
-}
-footer h1 {
-  font-family: "Londrina Solid"; font-size: 3rem; font-weight: bold; color: white; margin-bottom: 1.2rem;
-}
-.footer-item {
-  display: flex; flex-direction: row; gap: 1rem; align-items: center; justify-content: center; 
-}
-footer p {
-  font-size: 1rem; color: white;
+.container20 {
+  display: flex; flex-direction: row; gap: 2.5rem; padding: 1.125rem; justify-content: center;
 }
 
+.container20 img {
+  aspect-ratio: 1/1; width: 3rem;
+}
+footer {
+  background: #292929 ;
+  color: white;
+}
+
+.copyrigth-container {
+  border-top: 0.1rem solid whitesmoke;
+}
+.copyrigth {
+  display: flex; flex-direction: row; align-items: center; justify-content: space-between;
+  width: 53rem; margin: auto;
+}
 .footer-1 {
-  color: white; padding-top: 6rem;
+  width: 15rem;
+  margin-left: 20rem;
 }
-.footer-1 h1 { 
-  font-size: 1.5rem; padding-bottom: 1rem;
+.footer-1 h1 {
+  font-size: 2.5rem;
 }
-.footer-2 h1 { 
-  font-size: 1.5rem; padding-bottom: 1rem; padding-top: 6rem;
+
+.footer-item {
+  display: flex; flex-direction: row; gap: 0.8rem; align-items: center; justify-content: flex-start;
 }
 .photos {
-  display: flex; flex-direction: row; width: 20rem; flex-wrap: wrap; gap: 1rem;
+  display: flex; flex-direction: row; flex-wrap: wrap; width: 24rem; gap: 0.8rem; 
 }
+.photos img {
+  aspect-ratio: 1/1; width: 5.5rem;
+}
+
+.footer-container {
+  display: flex; flex-direction: row; gap: 4rem; justify-content: flex-start; margin-bottom: 1.5rem;
+}
+
+.footer-2 {
+  margin-top: 4rem; 
+}
+.footer-3 {
+  margin-top: 4rem;
+  
+}
+
+.container1 img {
+  aspect-ratio: 1/1; width: 2.625rem;
+}
+
+.container20 img {
+  aspect-ratio: 1/1; width: 2.625rem;
+}
+
