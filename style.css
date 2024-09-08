@@ -177,3 +177,43 @@ footer {
   aspect-ratio: 1/1; width: 2.625rem;
 }
 
+@media (max-width: 600px) {
+  .footer-container {
+    display: flex;flex-direction: column; align-items: flex-start;  gap: 0;
+  }
+  .footer-1 {
+    margin: 2.5rem 0rem 0rem 2rem;
+    padding-bottom: 0rem;
+  }
+  .footer-2 {
+    margin: 2.5rem 0rem 0rem 2rem;
+    padding-bottom: 0rem;
+  }
+  .footer-3 {
+    margin: 2.5rem 0rem 0rem 2rem;
+    padding-bottom: 0rem;
+    display: flex; flex-wrap: wrap; width: 200px;
+  }
+  .copyrigth-container {
+    display: flex;justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .container4 {
+    display: flex;
+    flex-direction: column;align-items: center;
+  }
+  .container20 {
+    display: flex; flex-direction: row; flex-wrap: wrap; width: 19rem; justify-content: space-between; margin: 0 auto;
+  }
+  .container3 h2 {
+    width: 19rem; text-align: center; margin: 1rem auto;
+  }
+  .card-items {
+    display: flex; flex-direction: column; 
+  }
+  .container1 {
+    display: flex; flex-direction: row; flex-wrap: wrap; width: 19rem; align-items: center; justify-content: space-between; margin: 1.8rem  2rem; gap: 1.2rem;
+  }
+ 
+  
+}
