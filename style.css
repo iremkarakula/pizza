@@ -159,10 +159,14 @@ footer {
   aspect-ratio: 1/1; width: 5.5rem;
 }
 
-.footer-container {
-  display: flex; flex-direction: row; gap: 3rem; justify-content: space-between; align-items: center; width: 60rem; margin-left: 20rem;
-}
 
+
+.footer-container {
+  display: flex; flex-direction: row; gap: 5rem; justify-content: center; margin-left: 8rem;
+}
+.footer-1 {
+  margin-top: 1rem;
+}
 .footer-2 {
   margin-top: 4rem; 
 }
@@ -170,6 +174,7 @@ footer {
   margin-top: 4rem;
   
 }
+
 
 .container1 img {
   aspect-ratio: 1/1; width: 2.625rem;
