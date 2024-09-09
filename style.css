@@ -1,4 +1,3 @@
-
 header {
    
   height: 55vw;
@@ -244,9 +243,11 @@ footer {
    .pizza {
       margin-right: 2.4rem;
    }
-   
+   body {
+    display: flex; flex-direction: column; justify-content: center; align-items: center; 
   }
   
   
   
-  }     
+  }
+  
