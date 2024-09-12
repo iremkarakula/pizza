@@ -1,3 +1,7 @@
+body {
+  margin: 0%; padding: 0%;
+  min-width: 794px;
+}
 header {
    
   height: 55vw;
@@ -8,14 +12,14 @@ header {
   
 }
 header h1 {
-  color: white; font-size: 2.5rem; font-family:" Londrina Solid"; text-align: center; padding-top: 2.188rem;
+  color: white; font-size: 2.5rem; font-family: Londrina Solid; text-align: center; padding-top: 2.188rem;
 }
 header h2 {
   font-family: Satisfy;
   color: #FDC913; font-size: 1.4rem;  font-style: italic; font-weight: bold;text-align: center; margin: 0; padding: 0;
 }
 header h3 {
-  width: 40.625rem; color: white; font-size: 4rem; font-family: "Roboto Condensed"; text-align: center; font-weight: 100; margin: 0; padding: 0;
+  width: 40.625rem; color: white; font-size: 4rem; font-family: Roboto Condensed; text-align: center; font-weight: 100; margin: 0; padding: 0;
 }
 header button {
   font-family: Barlow; font-size: 1.1rem; font-weight: 600; text-align: center; background: #FDC913; color: #292929; border-radius: 1.375rem;  padding: 0.938rem 3.125rem; margin: 0.938rem; border-color: #FDC913;
@@ -33,13 +37,13 @@ header button {
 
 
 .card-items {
-  display: flex; flex-direction: row; justify-content: center ; align-items: center;
+  display: flex; flex-direction: row; justify-content: center ; align-items: center;gap: 5px;
 }
 .card1 {
   background-image: url(.\public\assets\iteration-2\cta\kart-1.png);
   border-radius: 1.25rem;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 25rem ;
   height: 20rem; 
 }
@@ -118,7 +122,7 @@ header button {
 }
 
 .container4 {
-  display: flex; flex-direction: row; justify-content: center; gap: 3rem; padding: 2rem; 
+  display: flex; flex-direction: row; justify-content: center; gap: 3rem; padding: 2rem; min-width: 426px;
 }
 .container4 img {
   width: 16rem;
@@ -150,84 +154,122 @@ header button {
 footer {
   background: #292929 ;
   color: white;
-  width: 100vw;
+  width: 100%; min-width: 1000px;
+  display: flex; flex-direction: column; align-items: center;
+  
+  font-family: Barlow;
+}
+.upper-footer {
+  
+  width: 65%;
+  min-width:700px;
+  
+  display: flex; flex-direction: row; justify-content: space-between; align-items:center; gap: 4vw;
+  margin: 25px 0;
+  
+  height: 370px; 
   
 }
-
 .footer-1 {
-  width: 15rem;
- 
+  align-self: flex-start; justify-self: flex-start;
+   width: 250px;
+  
+  
+}
+.footer-item {
+  display: flex; flex-direction: row; justify-content: flex-start; gap: 5px; align-items: center;
+  
+}
+.footer-item img {
+  width: 28px;  height: 28px;
+  
+}
+.copy1 {
+  
+  width: 65%;
+  min-width: 700px;
+  display: flex; flex-direction: row; justify-content: space-between; align-items:center;
+}
+.line {
+  border-top: 1px solid white;
+  background: #292929;
+  width: 100vw;
+  display: flex; flex-direction: row; justify-content: center;
 }
 .footer-1 h1 {
-  font-size: 2.5rem;
+  font-family: Londrina Solid;
+font-size: 60px;
+font-weight: 400;
+margin-top: 0; margin-bottom: 15px;
+text-align: left;
 }
-
-.footer-item {
-  display: flex; flex-direction: row; gap: 0.8rem; align-items: center; justify-content: flex-start;
+.footer-2 {
+  align-self: flex-end;
+  
+  min-width: 190px;
+  height: 280px;
+}
+.footer-3 {
+  align-self: flex-end;
+  
+  height: 280px;
+  
+  
 }
 .photos {
-  display: flex; flex-direction: row; flex-wrap: wrap; width: 24rem; gap: 0.8rem; 
+  display: flex; flex-direction: row; flex-wrap: wrap; width: 24rem; gap: 0.8rem;  width: 300px;
 }
 .photos img {
   aspect-ratio: 1/1; width: 5.5rem;
+  
 }
 
-.footer-container {
-  display: flex; flex-direction: row; gap: 5vw; justify-content: center; align-items: center; margin-left: 4.8vw; 
+.footer-2 h2 {
+  margin-top: 0%; padding-bottom: 10px;
 }
-.footer-1 {
-  margin-top: 1rem;
-}
-.footer-2 {
-  margin-top: 4rem; 
-}
-.footer-3 {
-  margin-top: 4rem; padding-bottom: 2rem;
-}
-
-.copyrigth-container {
-  border-top: 0.1px solid whitesmoke;  
-}
-.copyrigth {
-  display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 45vw; 
+.footer-3 h2 {
+  margin-top: 0%; padding-bottom: 10px;
 }
 
 
-
+.main-footer {
+  display: flex; flex-direction: column; justify-content: center; align-items: center; 
+}
 
 
 
 
 @media (min-width: 481px) and (max-width: 850px) {
-  .footer-container {
-    display: flex;flex-direction: column; align-items: flex-start;  gap: 0; justify-content: center; margin-left: 10%;
+  footer {
+    width: 450px; height: 1000px;
+    display: flex; flex-direction: column; 
+    min-width: 0;
   }
-  .footer-1 {
-    margin: 2.5rem 0rem 0rem 2rem;
-    padding-bottom: 0rem;
-  }
-  .footer-2 {
-    margin: 2.5rem 0rem 0rem 2rem;
-    padding-bottom: 0rem;
-  }
-  .footer-3 {
-    margin: 2.5rem 0rem 0rem 2rem;  padding-right: 25px;
-     width: 12.5rem;  border-bottom: 0.1px solid whitesmoke;
-  }
-  .photos {
-    width: 250px;
-  }
-  .photos img {
-    aspect-ratio: 1/1; width: 70px;
-  }
-  .copyrigth-container {
-    display: flex; align-items: center; justify-content: center;
-    padding: 1rem; max-width: 250px;
-  }
-  .copyrigth {
-    display: flex; flex-direction: row; align-items: center;  gap: 150px; justify-content: space-evenly; width: 150px;
-  }
+ .main-footer {
+  display: flex; flex-direction: column; 
+  
+ }
+.upper-footer {
+  display: flex; flex-direction: column; align-items: flex-start;
+  min-width: 0px; width: 350px;
 
+}
+.footer-2 {
+  align-self: flex-start;
+}
+.footer-3 {
+  align-self: flex-start;
+}
+
+.copy1 {
+  border-top: 1px solid white;
+  min-width: 0; width: 350px;
+}
+.line {
+  width: 450px;
+  border-top: none;
+  position: relative; top: 550px;
+}
 
   .container4 {
     display: flex;
@@ -274,12 +316,8 @@ footer {
   header { 
     background-image: url(.\public\assets\iteration-1\home-banner.png);background-repeat: no-repeat; width: 400px; overflow: hidden; background-position: center bottom; height: 1100px; background-size: 1000px 550px; height: 750px; 
   }
-  footer {
-    width: 400px;
-  }
-  .copyrigth-container {
-    border: none;
-  }
+ 
+  
   
 
   }
